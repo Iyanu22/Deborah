@@ -29,7 +29,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch("https://epower.ng/wp-json/wp/v2/posts?_embed")
+    fetch("http://localhost:8888/kadmieljames//wp-json/wp/v2/posts?_embed")
       .then(res => res.json())
       .then(
         (posts) => {
